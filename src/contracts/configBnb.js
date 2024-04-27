@@ -11,7 +11,7 @@ export const networkLink = "https://bscscan.com/tx/";
 const tokenContractAddress = "0xE87318C91F0dc56072e8eB079afabD5C1F771900";
 
 //token presale contract address
-export const presaleContractAddress = "0xf7376620de93A8Fdd8bc91166FEF37ef07270835";
+export const presaleContractAddress = "0xd2f6eC9A5c5541b891AF6992E9d457247b6994C7";
 
 //payment with (eg. ETH, BNB, MATIC etc.)
 export const payWith = "BNB";

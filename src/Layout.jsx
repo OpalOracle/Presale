@@ -6,7 +6,7 @@ const Layout = ({ pageTitle, children }) => {
     <HelmetProvider>
       <Helmet>
         {/* title tag */}
-        {pageTitle ? <title>{pageTitle}</title> : <title>Gittu</title>}
+        {pageTitle ? <title>{pageTitle}</title> : <title>Opal Oracle - World's No#1 Future Crypto</title>}
 
         {/* favicon included here  */}
         <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />

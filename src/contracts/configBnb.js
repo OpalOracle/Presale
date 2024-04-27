@@ -5,10 +5,10 @@ import TokenContractAbi from "./TokenContractAbi.json";
 import PresaleContractAbi from "./PresaleContractAbi.json";
 
 //network link
-export const networkLink = "https://testnet.bscscan.com/tx/";
+export const networkLink = "https://bscscan.com/tx/";
 
 //token contract address
-const tokenContractAddress = "0xc461EFaC98FCF9D572525080C8D7fBA412f7a280";
+const tokenContractAddress = "0xE87318C91F0dc56072e8eB079afabD5C1F771900";
 
 //token presale contract address
 export const presaleContractAddress = "0xf7376620de93A8Fdd8bc91166FEF37ef07270835";

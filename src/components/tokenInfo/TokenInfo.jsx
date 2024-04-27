@@ -12,13 +12,13 @@ const TokenInfo = ({ variant }) => {
   const ethChainId = Data[0]?.chainId;
   const [userChainId, setUserChainId] = useState(null);
 
-  const [tokenName, setTokenName] = useState("GITTU TOKEN");
-  const [tokenSymbol, setTokenSymbol] = useState("GITTU");
+  const [tokenName, setTokenName] = useState("Opal Oracle");
+  const [tokenSymbol, setTokenSymbol] = useState("$OPACLE");
   const [maxStage, setMaxStage] = useState(0);
   const [currentStage, setCurrentStage] = useState(1);
-  const [currentPrice, setCurrentPrice] = useState("0.001 USD");
+  const [currentPrice, setCurrentPrice] = useState("0.002 USD");
   const [nextStage, setNextStage] = useState(0);
-  const [nextPrice, setNextPrice] = useState("0.002 USD");
+  const [nextPrice, setNextPrice] = useState("0.005 USD");
 
   const { isConnected } = useAccount();
   const { chain } = useNetwork();

@@ -5,16 +5,16 @@ import TokenContractAbi from "./TokenContractAbi.json";
 import PresaleContractAbi from "./PresaleContractAbi.json";
 
 //network link
-export const networkLink = "https://sepolia.etherscan.io/tx/";
+export const networkLink = "https://bscscan.com/tx/";
 
 //token contract address
-const tokenContractAddress = "0x5966a5F1ec6aAb438c663b1021521aCb6c1474b4";
+const tokenContractAddress = "0xE87318C91F0dc56072e8eB079afabD5C1F771900";
 
 //token presale contract address
 export const presaleContractAddress = "0x330504bA26bCa42c700Eb4345a0011cB260f5b0B";
 
 //payment with (eg. ETH, BNB, MATIC etc.)
-export const payWith = "ETH";
+export const payWith = "BNB";
 
 //token contract configuration
 export const tokenContractConfig = {
@@ -102,7 +102,7 @@ export const buyTokenCall = {
 export const GetUSDExchangeRate = async () => {
   var requestOptions = { method: "GET", redirect: "follow" };
   return fetch(
-    "https://api.coinbase.com/v2/exchange-rates?currency=ETH",
+    "https://api.coinbase.com/v2/exchange-rates?currency=BNB",
     requestOptions
   )
     .then((response) => response.json())

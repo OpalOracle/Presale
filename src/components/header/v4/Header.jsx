@@ -5,7 +5,7 @@ import ConnectWalletButton from "../../connectWalletButton/ConnectWalletButton";
 import DropdownDemo from "../dropdownDemo/DropdownDemo";
 import MobileMenu from "../mobileMenu/MobileMenu";
 
-import Logo from "../../../assets/images/logo-2.png";
+import Logo from "../../../assets/images/opaloracle.png";
 import Telegram from "../../../assets/images/icons/telegram.svg";
 import Discord from "../../../assets/images/icons/discord.svg";
 import Twitter from "../../../assets/images/icons/twitter.svg";
@@ -28,7 +28,7 @@ const Header = () => {
               <ul className="social-links">
                 <li>
                   <a
-                    href="https://web.telegram.org/"
+                    href="https://t.me/opaloracle_opacle/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -37,7 +37,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="https://discord.com/"
+                    href="https://discord.com/opacle"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -46,7 +46,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="https://twitter.com/"
+                    href="https://twitter.com/opa_cle"
                     target="_blank"
                     rel="noreferrer"
                   >

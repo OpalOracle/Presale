@@ -5,7 +5,7 @@ import Banner from "../sections/banner/v10/Banner";
 
 const HomeV10 = () => {
   return (
-    <Layout pageTitle="Gittu - Home Ten">
+    <Layout pageTitle="Opal Oracle - World's No#1 Future Crypto">
       <Header />
       <Banner />
     </Layout>

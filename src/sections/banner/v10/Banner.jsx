@@ -46,8 +46,8 @@ const Banner = () => {
   const [currentBonus, setCurrentBonus] = useState("20");
   const [currentPrice, setCurrentPrice] = useState("0.001");
   const [stageEnd, setStageEnd] = useState(1733996440);
-  const [tokenName, setTokenName] = useState("GITTU TOKEN");
-  const [tokenSymbol, setTokenSymbol] = useState("GITTU");
+  const [tokenName, setTokenName] = useState("Opacle Oracle");
+  const [tokenSymbol, setTokenSymbol] = useState("$OPACLE");
   const [userBalance, setUserBalance] = useState("28.25 ETH");
   const [presaleToken, setPresaleToken] = useState(100000);
   const [tokenSold, setTokenSold] = useState(20000);

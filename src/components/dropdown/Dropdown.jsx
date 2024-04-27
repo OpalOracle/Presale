@@ -16,14 +16,16 @@ const Dropdown = ({
   const [selectedImg, setSelectedImg] = useState(EthIcon);
 
   useEffect(() => {
-    if (userChainId == ethChainId) {
-      setSelectedImg(EthIcon);
-      setTitleText("ETH");
-    }
+    
     if (userChainId == bnbChainId) {
       setSelectedImg(BnbIcon);
       setTitleText("BNB");
     }
+    if (userChainId == ethChainId) {
+      setSelectedImg(EthIcon);
+      setTitleText("ETH");
+    }
+
   }, [userChainId, ethChainId, bnbChainId]);
 
   return (
